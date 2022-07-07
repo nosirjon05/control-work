@@ -1,0 +1,93 @@
+.data {
+  background-color: #D2DBE3FF;
+  background-repeat: no-repeat;
+  background-size: 780px 780px;
+  background-position: calc(50% + 725px) 0px;
+  background-image: url("../../image/gray-cricle.png");
+}
+
+.data__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data__title {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+
+.data__text {
+  width: 445px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294; 
+}
+
+.data__img {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .data__box {
+    flex-direction: column-reverse;
+  }
+
+  .data__text {
+    text-align: center;
+  }
+
+  .data__title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .data__img {
+    width: 363px;
+    height: 320px;
+  }
+
+  .data__text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .data__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .data__text {
+    width: 328px;
+  }
+
+  .data__title {
+    width: 327px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .data__img {
+    width: 328px;
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .data__text {
+    width: 280px;
+  }
+
+  .data__title {
+    width: 280px;
+  }
+
+  .data__img {
+    width: 300px;
+  }
+}
